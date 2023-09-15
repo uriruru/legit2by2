@@ -1,0 +1,129 @@
+<section class="my-unique-namespace-hero" style="background-color: black;">
+  <div class="my-unique-namespace-hero-body">
+    <div class="my-unique-namespace-container has-text-centered" style="max-width: 2000px;">
+      <p class="my-unique-namespace-video-sec-title" style="text-align: left;">Super Responsive Video Grid</p>
+      <ul class="my-unique-namespace-video-sec-middle" id="my-unique-namespace-vid-grid">
+        <li class="my-unique-namespace-thumb-wrap"><a href="">
+          <img class="my-unique-namespace-thumb" src="https://images.unsplash.com/photo-1555661225-ade1bbf3fbb3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1957&q=80" alt="">
+          <div class="my-unique-namespace-thumb-info">
+            <p class="my-unique-namespace-thumb-title">This is the longest title of them all, such a long title that it is being cut off</p>
+            <p class="my-unique-namespace-thumb-user">Username</p>
+            <p class="my-unique-namespace-thumb-text">1.3K Views</p>
+          </div>
+        </a></li>
+        <li class="my-unique-namespace-thumb-wrap"><a href="">
+          <img class="my-unique-namespace-thumb" src="https://images.unsplash.com/photo-1566075247408-2fc9e74810d2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="">
+          <div class="my-unique-namespace-thumb-info">
+            <p class="my-unique-namespace-thumb-title">Video Title 2 - Super Long Title With Really Long New Line</p>
+            <p class="my-unique-namespace-thumb-user">Username</p>
+            <p class="my-unique-namespace-thumb-text">57K Views</p>
+          </div>
+        </a></li>
+        <li class="my-unique-namespace-thumb-wrap"><a href="">
+          <img class="my-unique-namespace-thumb" src="https://images.unsplash.com/photo-1559083991-9bdef0bb5a39?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1955&q=80" alt="">
+          <div class="my-unique-namespace-thumb-info">
+            <p class="my-unique-namespace-thumb-title">Video Title 3 - Short Title</p>
+            <p class="my-unique-namespace-thumb-user">Username</p>
+            <p class="my-unique-namespace-thumb-text">4.6K Views</p>
+          </div>
+        </a></li>
+        <li class="my-unique-namespace-thumb-wrap"><a href="">
+          <img class="my-unique-namespace-thumb" src="https://images.unsplash.com/photo-1560800589-3d88290dd749?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1955&q=80" alt="">
+          <div class="my-unique-namespace-thumb-info">
+            <p class="my-unique-namespace-thumb-title">Video Title 4</p>
+            <p class="my-unique-namespace-thumb-user">Username</p>
+            <p class="my-unique-namespace-thumb-text">3K Views</p>
+          </div>
+        </a></li>
+        <li class="my-unique-namespace-thumb-wrap"><a href="">
+          <img class="my-unique-namespace-thumb" src="https://images.unsplash.com/photo-1560716092-203a1703e06e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1955&q=80" alt="">
+          <div class="my-unique-namespace-thumb-info">
+            <p class="my-unique-namespace-thumb-title">Video Title 5 - Long Title With New Line, but a bit longer</p>
+            <p class="my-unique-namespace-thumb-user">Username</p>
+            <p class="my-unique-namespace-thumb-text">126K Views</p>
+          </div>
+        </a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<style>
+.my-unique-namespace-video-sec-wrap {
+  width: 100%;
+  min-height: 100vh;
+}
+.my-unique-namespace-video-sec {
+  width: 85%;
+  margin: 3em auto;
+  border-bottom: 2px solid #353535;
+  text-align: left;
+}
+.my-unique-namespace-video-sec-middle {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  grid-gap: 15px;
+  padding: 20px 0;
+}
+.my-unique-namespace-thumb-wrap {
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+.my-unique-namespace-thumb {
+  display: block;
+  margin: 0.4em;
+  width: 100%;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+}
+.my-unique-namespace-thumb:hover {
+  opacity: 0.8;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+}
+.my-unique-namespace-thumb-info {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  padding: 0.4em;
+  text-align: left;
+}
+.my-unique-namespace-thumb-title {
+  color: #f5f5f5;
+  margin: 0;
+  font-size: 1.2em;
+}
+.my-unique-namespace-thumb-user {
+  color: #7e7e7e;
+  display: block;
+  margin: 0;
+  font-size: 0.9em;
+}
+.my-unique-namespace-thumb-text {
+  color: #7e7e7e;
+  display: inline-block;
+  margin: 0;
+  font-size: 0.8em;
+}
+.my-unique-namespace-video-sec-title {
+  font-weight: bolder;
+  font-size: 1.4em;
+  color: #f5f5f5;
+  margin: 5px 0 10px 10px;
+}
+.my-unique-namespace-video-showmore {
+  font-weight: bold;
+  font-variant: all-petite-caps;
+  display: none;
+  color: #7e7e7e;
+  padding: 10px;
+  font-size: 1.2em;
+}
+@media only screen and (max-width: 756px) {
+  .my-unique-namespace-video-sec-middle {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
